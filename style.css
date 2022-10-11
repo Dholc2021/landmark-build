@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Tangerine&display=swap');
+/* start: showcase section styles */
+/* start: showcase section styles */
+body {
+	font-family: 'Tangerine', cursive;
+	font-size: 2rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	color: #232087;
+}
+
+
+
+ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+collapse ul li {
+	float: right;	
+	list-style-type: none;
+	justify-content: space-around;
+}
+
+ul li:first-child {
+    float: left;
+}
+
+
+ul li a {
+	color: white;
+	background-color: #212529;
+	display: block;
+	line-height: 3em;
+	padding: 1em 3em;
+	text-decoration: none;
+  }
+
+  ul li:first-child {
+	margin-right: auto;
+  }
+  ul li a.logo {
+	background-color: green;
+  }
+  ul li a:hover {
+	background-color: #232087;
+  }
+
+
+.form-control-dark {
+	border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+	border-color: #fff;
+	box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+.text-small {
+	font-size: 85%;
+}
+.dropdown-toggle {
+	outline: 0;
+}
+#showcase {
+	font-family: 'Tangerine', cursive;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background: url("img/home page background img-2000x1000.jpg") center no-repeat;
+	/* filter: brightness(200%);
+	*/
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	height: 100vh;
+	width: 100vw;
+}
+#showcase .fade {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(52, 58, 64, 0.9);
+	z-index: 1;
+}
+#showcase .showcase-text {
+	position: absolute;
+	top: 50%;
+	margin: -75px auto 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	color: #fff;
+	width: 500px;
+	text-align: center;
+}
+#showcase .showcase-text h3 {
+	font-family: 'Tangerine', cursive;
+	line-height: 1.5em;
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+.showcase-title {
+	font-family: 'Tangerine', cursive;
+	color:#fff;
+	font-size: 5rem;
+	font-weight: 600;
+	padding-top: 20px;
+	justify-content: center;
+	text-align: center;
+	margin: 0 auto;
+}
+/* end: showcase section styles */
+.showcase-sub-title {
+	font-size: 5em;
+}
+/* start: global styles */
+/* GLOBAL STYLES-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+@media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
+.b-example-divider {
+	height: 3rem;
+	background-color: rgba(0, 0, 0, .1);
+	border: solid rgba(0, 0, 0, .15);
+	border-width: 1px 0;
+	box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+.b-example-vr {
+	flex-shrink: 0;
+	width: 1.5rem;
+	height: 100vh;
+}
+.bi {
+	vertical-align: -.125em;
+	fill: currentColor;
+}
+.nav-scroller {
+	position: relative;
+	z-index: 2;
+	height: 2.75rem;
+	overflow-y: hidden;
+}
+.nav-scroller .nav {
+	display: flex;
+	flex-wrap: nowrap;
+	padding-bottom: 1rem;
+	margin-top: -1px;
+	overflow-x: auto;
+	text-align: center;
+	white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
+}
+/* CUSTOMIZE THE CAROUSEL-------------------------------------------------- */
+/* Carousel base class */
+.carousel {
+	margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+	bottom: 3rem;
+	z-index: 10;
+}
+/* Declare heights because of positioning of img element */
+.carousel-item {
+	height: 32rem;
+}
+/* MARKETING CONTENT-------------------------------------------------- */
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+	margin-bottom: 1.5rem;
+	text-align: center;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+	margin-right: .75rem;
+	margin-left: .75rem;
+}
+/* rtl:end:ignore */
+/* Featurettes------------------------- */
+.featurette-divider {
+	margin: 5rem 0;
+	/* Space out the Bootstrap <hr> more */
+}
+/* Thin out the marketing headings */
+/* rtl:begin:remove */
+.featurette-heading {
+	letter-spacing: -.05rem;
+}
+.col-md-6, .p-4 {
+  border-radius: 30px;
+  color: #fff;  
+}
+/* start: contact us styles */
+#contact {
+	background: #f8f9fa;
+	padding: 4rem 0 8rem;
+}
+#contact h2 {
+	text-align: center;
+	margin-bottom: 4rem;
+}
+
+.container {
+	height: 100vh;
+	width: 100vw;
+}
+
+#form-container {
+	width: 58%;
+	background: #232087;
+	padding: 3rem;
+	box-sizing: border-box;
+	height: 0%;
+  	border-radius: 25px;
+	width: 90vw;
+}
+#form-container h3 {
+  color: #000;
+	font-family: "Playfair Display", serif;
+	margin-bottom: 2rem;
+}
+#form-container label {
+  display: block;
+	color: #000;
+	margin-top: 1rem;
+}
+#form-container input,#form-container textarea {
+  display: block;
+	border-radius: 20px;
+	padding: 10px;
+	border: 1px solid #ced4da;
+	width: 100%;
+	box-sizing: border-box;
+	height: 43px;
+	font-family: "Roboto", "Helvetica", "Sans-serif";
+	font-size: 1rem;
+	color: #495057;
+}
+#form-container textarea {
+  height: 170px;
+	margin-bottom: 2rem;
+	resize: none;
+}
+
+.address {
+	color: #fff!important;
+	
+}
+
+#address-container {
+  width: 38%;
+	padding: 1.5rem;
+	box-sizing: border-box;
+  background: #232087;
+  color: #fff;
+	height: 0%;
+  border-radius: 25px;
+}
+#address-container label {
+	font-weight: 700;
+	display: block;
+	margin-top: 2rem;
+}
+#address-container label:first-child {
+	margin-top: 0;
+}
+#address-container address {
+	margin-bottom: 1.5rem;
+	font-style: normal;
+}
+#address-container a {
+	text-decoration: none;
+	color: #232087;
+}
+#address-container a:hover {
+	text-decoration: underline;
+}
+
+.phone {
+  color: #fff!important;
+}
+
+/* end: contact us styles */
+#purpose-of-visit {
+	height:100vh;
+	width: 100vw;
+}
+/* rtl:end:remove */
+/* RESPONSIVE CSS-------------------------------------------------- */
+@media (min-width: 40em) {
+	/* Bump up size of carousel content */
+
+.carousel {
+	height: 100vh;
+	width: 100vw;
+}
+
+	.carousel-caption p {
+		margin-bottom: 1.25rem;
+		font-size: 1.25rem;
+		line-height: 1.4;
+	}
+	.featurette-heading {
+		font-size: 50px;
+	}
+}
+@media (min-width: 62em) {
+	.featurette-heading {
+		margin-top: 7rem;
+	}
+}
+/* stylelint-disable selector-list-comma-newline-after */
+.blog-header {
+	border-bottom: 1px solid #e5e5e5;
+}
+.blog-header-logo {
+	font-family: 'Tangerine', cursive;
+	font-size: 2.25rem;
+}
+.blog-header-logo:hover {
+	text-decoration: none;
+}
+ul {
+	display: flex;
+}
+.display-4 {
+	font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+	.display-4 {
+		font-size: 3rem;
+	}
+
+
+@media (min-width: 768px) {
+	.h-md-250 {
+		height: 250px;
+	}
+}
+/* Pagination */
+.blog-pagination {
+	margin-bottom: 4rem;
+}
+/** Blog posts*/
+.blog-post {
+	margin-bottom: 4rem;
+}
+.blog-post-title {
+	font-size: 2.5rem;
+}
+.blog-post-meta {
+	margin-bottom: 1.25rem;
+	color: #727272;
+}
+/** 232087*/
+.blog-footer {
+	padding: 2.5rem 0;
+	color: #727272;
+	text-align: center;
+	background-color: #f9f9f9;
+	border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+	margin-bottom: 0;
+}
+
+}
+
+.footer {
+	margin-bottom: 0;
+}
